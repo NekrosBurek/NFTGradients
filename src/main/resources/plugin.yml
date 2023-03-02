@@ -1,0 +1,6 @@
+name: NFTWGradients
+version: '${project.version}'
+main: com.pixelcreations.nftwgradients.NFTWGradients
+api-version: 1.17
+depend: [ PlaceholderAPI ]
+description: Ability to make your username in gradient colors

@@ -1,0 +1,56 @@
+Messages:
+  NoPermissionMessage: "&cYou do not have permission to use this command!"
+  ReloadMessage: "&aReloaded the config!"
+  No-Player: "&cYou must be a player to use this command!"
+  Toggle-Off: "&cYou have disabled {1} gradient colored username"
+  Toggle-On: "&aYou have enabled {1} gradient colored username"
+  Toggle-Other-Off: "&cYou have disabled {1}'s gradient colored username"
+  Toggle-Other-On: "&aYou have enabled {1}'s gradient colored username"
+  Toggle-Other-Off-By: "&c{1} has disabled your gradient colored username"
+  Toggle-Other-On-By: "&a{1} has enabled your gradient colored username"
+
+Storage:
+  ## The type of storage to use. Currently only YAML and MySQL are supported.
+  Type: "YAML"
+  ## The MySQL database information. Only used if Type is set to MySQL.
+  Host: "localhost"
+  Port: 3306
+  Database: "database"
+  Username: "username"
+  Password: "password"
+
+Gradients:
+  BeyondBlue:
+    name: "Beyond Blue"
+    priority: 1
+    lore:
+      - "This is a test"
+      - "This is a second line"
+      - "&cThis is color coded"
+    permission: "gradient.beyondblue"
+    item: DIAMOND
+    colors:
+      - "0x0000FF"
+      - "0x00FFFF"
+      - "0x00FF00"
+      - "0xFFFF00"
+      - "0xFF0000"
+      - "0xFF00FF"
+      - "0x0000FF"
+  BetaBlue:
+    name: "Beta Blue"
+    priority: 2
+    lore:
+      - "This is a test"
+      - "This is a second line"
+      - "&cThis is color coded"
+    permission: "gradient.betablue"
+    item: PAPER
+    colors:
+      - "0x0000FF"
+      - "0x00FFFF"
+      - "0x00FF00"
+      - "0xFFFF00"
+      - "0xFF0000"
+      - "0xFF00FF"
+      - "0x0000FF"
